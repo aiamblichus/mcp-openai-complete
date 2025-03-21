@@ -1,6 +1,6 @@
 # OpenAI Complete MCP Server
 
-An MCP (Model Context Protocol) server that provides a clean interface for LLMs to use OpenAI's text completion capabilities through the MCP protocol. This server acts as a bridge between an LLM client and OpenAI's API.
+An MCP (Model Context Protocol) server that provides a clean interface for LLMs to use text completion capabilities through the MCP protocol. This server acts as a bridge between an LLM client and any OpenAI's compatible API. The primary use case is for **base models**, as the server does not provide support for chat completions.
 
 ## Features
 
@@ -25,12 +25,12 @@ pnpm run build
 
 ## Configuration
 
-Create a `.env` file in the project root with the following variables:
+The following environment variables are required:
 
 ```
-OPENAI_API_KEY=your-api-key
-OPENAI_API_BASE=https://api.openai.com/v1 # Optional, only if using a different API endpoint
-OPENAI_MODEL=text-davinci-003 # Optional, defaults to text-davinci-003
+OPENAI_API_KEY=your-hyperbolic-api-key
+OPENAI_API_BASE=https://api.hyperbolic.xyz/v1
+OPENAI_MODEL=meta-llama/Meta-Llama-3.1-405B
 ```
 
 ## Usage
