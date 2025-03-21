@@ -18,4 +18,4 @@ COPY . .
 RUN pnpm run build
 
 # Command to run the server
-CMD ["node", "dist/index.js"] 
+CMD ["node", "dist/cli.js"] 
