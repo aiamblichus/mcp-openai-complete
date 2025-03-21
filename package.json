@@ -28,12 +28,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/mcp-openai-complete.git"
+    "url": "git+https://github.com/aiamblichus/mcp-openai-complete.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/mcp-openai-complete/issues"
+    "url": "https://github.com/aiamblichus/mcp-openai-complete/issues"
   },
-  "homepage": "https://github.com/yourusername/mcp-openai-complete#readme",
+  "homepage": "https://github.com/aiamblichus/mcp-openai-complete#readme",
   "packageManager": "pnpm@10.6.5",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0",

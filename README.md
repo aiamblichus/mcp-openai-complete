@@ -17,10 +17,10 @@ git clone <repository-url>
 cd mcp-openai-complete
 
 # Install dependencies
-npm install
+pnpm install
 
 # Build the project
-npm run build
+pnpm run build
 ```
 
 ## Configuration
@@ -38,7 +38,7 @@ OPENAI_MODEL=text-davinci-003 # Optional, defaults to text-davinci-003
 Start the server:
 
 ```bash
-npm start
+pnpm start
 ```
 
 This will start the server on stdio, making it available for MCP clients to communicate with.

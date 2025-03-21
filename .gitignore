@@ -21,4 +21,4 @@ npm-debug.log*
 .vscode/
 .DS_Store
 
-mcp.json
+.cursor
